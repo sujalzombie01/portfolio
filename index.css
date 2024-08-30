@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Protest+Revolution&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+   cursor: pointer;
+
+}
+body{
+    background-color: black;
+}
+#don>ul{
+    color: white;
+    display: flex;
+    justify-content: space-between
+}
+.list1{
+    list-style: none;
+    display: flex;
+
+}
+.sad a{
+    
+    padding: 3px 100px 3px 100px;
+    /* background-color: rgb(216, 215, 215); */
+    display: flex;
+    justify-content: space-between;
+
+}
+.sad{
+    border: 2px solid white;
+}
+
+.pad{
+    padding: 5px;
+}
+.pad:hover{
+    transform: scale(20px);
+}
+#video{
+    position:absolute;
+    z-index: -1;
+}
+#im1{
+    border-radius: 200px;
+}
+#div2>li>h1{
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: antiquewhite;
+  
+}
+#div2{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style: none;
+  font-size: 50px;
+   
+}
+#int{
+    background-color: white;
+    color: black;
+    margin-top: 60px;
+}
+
+#div1{
+    height: 100vh;  
+    animation-name:s;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1; 
+    
+}
+
+#div1>i{
+    animation-name:s;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    font-size: 300px;
+    color: rgba(41, 40, 40, 0.308);
+
+}
+@keyframes s {
+    from{}
+    to{
+        transform: translate(100px);
+        color: white;
+    }
+    
+}
+
+#div3{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    
+}
+.rom{
+    display:flex;
+    flex-direction: row;
+    justify-content:right;
+    padding-top: 50px;
+   
+}
+.doll{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 5px;
+    box-shadow: 20px 20px 1px 4px white inset;
+    transition-duration: 2s;
+    
+}
+
+.doll:hover{
+     transform:  translate(-30vw) scale(1.2) ;
+     
+}
+.tum{
+    /* background-color: rgba(22, 21, 21, 0.479); */
+    border-radius: 30px;
+    box-shadow: 10px 10x 3px white outset;
+
+}
+#fork{
+    background-color: white;
+    color: black;
+}
+.tym:hover{
+    transform: translate(60px);
+}
+#foot{
+    color: white;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+@media screen and (max-width:500px) {
+
+    #div1>i{
+       width: 100%;
+        font-size:20px;
+        background-color: beige;
+    }
+    #div{
+        margin: 0;
+        padding: 0;
+        
+    }
+  
+    .sad{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-left: 40%;
+        border:0px solid;
+    }
+    #div2{
+        font-size:15px;
+    }
+    
+}
